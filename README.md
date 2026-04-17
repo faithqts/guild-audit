@@ -75,12 +75,7 @@ Stop the stack:
 docker compose down
 ```
 
-The compose file mounts:
-
-- `./cache` -> `/app/cache`
-- `./personal_data.json` -> `/app/personal_data.json`
-
-so runtime cache and personal data changes persist across container restarts.
+No host bind mounts are required. Runtime cache and `personal_data.json` are managed inside the container filesystem by the app.
 
 ## Portainer Notes
 
