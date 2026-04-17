@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Audit Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/wow_logo.png">
+</head>
+<body>
+  <div class="bg-base"></div>
+  <div class="bg-noise"></div>
+  <div class="bg-grid"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <div class="container">
+    <header>
+      <div class="header-row">
+        <h1><span class="emoji">⚔️</span> Personal Audit Editor <span class="subtitle">Manage personal_data.json and force-refresh personal characters.</span></h1>
+        <span class="meta">AuthToken protected editor</span>
+      </div>
+      <div class="accent-line"></div>
+    </header>
+
+    <div class="editor-card">
+      <p class="editor-help">Provide a JSON array with entries like { "name": "faithsm", "server": "frostmourne" }.</p>
+      <textarea id="personal-json" class="editor-textarea" spellcheck="false" aria-label="Personal audit JSON"></textarea>
+      <div class="editor-actions">
+        <button id="reload-personal" class="editor-btn editor-btn-secondary" type="button">Reload</button>
+        <button id="save-personal" class="editor-btn editor-btn-primary" type="button">Save and Refresh Personal</button>
+      </div>
+      <p id="editor-status" class="editor-status" role="status" aria-live="polite"></p>
+    </div>
+
+    <div class="audit-footer-nav">
+      <a class="audit-back-link" href="/personal">← Back to Personal Audit</a>
+    </div>
+  </div>
+
+  <script src="/js/personal-edit.js"></script>
+</body>
+</html>

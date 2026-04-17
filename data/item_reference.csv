@@ -1,0 +1,163 @@
+type,id,name,tier,slot,cheap,eversong_diamond,wowhead
+enchant,7982,Berserker's Rage,1,Weapon,FALSE,FALSE,243973
+enchant,7983,Berserker's Rage,2,Weapon,FALSE,FALSE,243972
+enchant,7980,Jan'alai's Precision,1,Weapon,FALSE,FALSE,243970
+enchant,7981,Jan'alai's Precision,2,Weapon,FALSE,FALSE,243971
+enchant,8040,Arcane Mastery,1,Weapon,FALSE,FALSE,244030
+enchant,8041,Arcane Mastery,2,Weapon,FALSE,FALSE,244031
+enchant,8038,Acuity of the Ren'dorei,1,Weapon,FALSE,FALSE,244028
+enchant,8039,Acuity of the Ren'dorei,2,Weapon,FALSE,FALSE,244029
+enchant,7978,Strength of Halazzi,1,Weapon,FALSE,FALSE,243968
+enchant,7979,Strength of Halazzi,2,Weapon,FALSE,FALSE,243969
+enchant,8036,Flames of the Sin'dorei,1,Weapon,FALSE,FALSE,244026
+enchant,8037,Flames of the Sin'dorei,2,Weapon,FALSE,FALSE,244027
+enchant,8008,Worldsoul Aegis,1,Weapon,FALSE,FALSE,243998
+enchant,8009,Worldsoul Aegis,2,Weapon,FALSE,FALSE,243999
+enchant,8010,Worldsoul Tenacity,1,Weapon,FALSE,FALSE,244000
+enchant,8011,Worldsoul Tenacity,2,Weapon,FALSE,FALSE,244001
+enchant,8006,Worldsoul Cradle,1,Weapon,FALSE,FALSE,243996
+enchant,8007,Worldsoul Cradle,2,Weapon,FALSE,FALSE,243997
+enchant,8612,Smuggler's Lynxeye,1,Weapon,TRUE,FALSE,257747
+enchant,8613,Smuggler's Lynxeye,2,Weapon,TRUE,FALSE,257748
+enchant,8614,Farstrider's Hawkeye,1,Weapon,TRUE,FALSE,257745
+enchant,8615,Farstrider's Hawkeye,2,Weapon,TRUE,FALSE,257746
+enchant,7962,Lynx's Dexterity,1,Boots,FALSE,FALSE,243952
+enchant,7963,Lynx's Dexterity,2,Boots,FALSE,FALSE,243953
+enchant,7992,Shaladrassil's Roots,1,Boots,FALSE,FALSE,243982
+enchant,7993,Shaladrassil's Roots,2,Boots,FALSE,FALSE,243983
+enchant,8018,Farstrider's Hunt,1,Boots,FALSE,FALSE,244008
+enchant,8019,Farstrider's Hunt,2,Boots,FALSE,FALSE,244009
+enchant,7984,Mark of the Rootwarden,1,Chest,FALSE,FALSE,243974
+enchant,7985,Mark of the Rootwarden,2,Chest,FALSE,FALSE,243975
+enchant,8012,Mark of the Magister,1,Chest,FALSE,FALSE,244002
+enchant,8013,Mark of the Magister,2,Chest,FALSE,FALSE,244003
+enchant,7956,Mark of Nalorakk,1,Chest,FALSE,FALSE,243946
+enchant,7957,Mark of Nalorakk,2,Chest,FALSE,FALSE,243947
+enchant,7986,Mark of the Worldsoul,1,Chest,FALSE,FALSE,243976
+enchant,7987,Mark of the Worldsoul,2,Chest,FALSE,FALSE,243977
+enchant,8014,Rune of Avoidance,1,Helm,TRUE,FALSE,244004
+enchant,8015,Rune of Avoidance,2,Helm,TRUE,FALSE,244005
+enchant,8016,Empowered Rune of Avoidance,1,Helm,FALSE,FALSE,244006
+enchant,8017,Empowered Rune of Avoidance,2,Helm,FALSE,FALSE,244007
+enchant,7958,Hex of Leeching,1,Helm,TRUE,FALSE,243948
+enchant,7959,Hex of Leeching,2,Helm,TRUE,FALSE,243949
+enchant,7960,Empowered Hex of Leeching,1,Helm,FALSE,FALSE,243950
+enchant,7961,Empowered Hex of Leeching,2,Helm,FALSE,FALSE,243951
+enchant,7988,Blessing of Speed,1,Helm,TRUE,FALSE,243978
+enchant,7989,Blessing of Speed,2,Helm,TRUE,FALSE,243979
+enchant,7990,Empowered Blessing of Speed,1,Helm,FALSE,FALSE,243980
+enchant,7991,Empowered Blessing of Speed,2,Helm,FALSE,FALSE,243981
+enchant,7998,Nature's Grace,1,Shoulder,TRUE,FALSE,243988
+enchant,7999,Nature's Grace,2,Shoulder,TRUE,FALSE,243989
+enchant,8000,Amirdrassil's Grace,1,Shoulder,FALSE,FALSE,243990
+enchant,8001,Amirdrassil's Grace,2,Shoulder,FALSE,FALSE,243991
+enchant,8028,Thalassian Recovery,1,Shoulder,TRUE,FALSE,244018
+enchant,8029,Thalassian Recovery,2,Shoulder,TRUE,FALSE,244019
+enchant,8030,Silvermoon's Mending,1,Shoulder,FALSE,FALSE,244020
+enchant,8031,Silvermoon's Mending,2,Shoulder,FALSE,FALSE,244021
+enchant,7970,Flight of the Eagle,1,Shoulder,TRUE,FALSE,243960
+enchant,7971,Flight of the Eagle,2,Shoulder,TRUE,FALSE,243961
+enchant,7972,Akil'zon's Swiftness,1,Shoulder,FALSE,FALSE,243962
+enchant,7973,Akil'zon's Swiftness,2,Shoulder,FALSE,FALSE,243963
+enchant,7994,Nature's Wrath,1,Rings,TRUE,FALSE,243984
+enchant,7995,Nature's Wrath,2,Rings,TRUE,FALSE,243985
+enchant,7996,Nature's Fury,1,Rings,FALSE,FALSE,243986
+enchant,7997,Nature's Fury,2,Rings,FALSE,FALSE,243987
+enchant,7966,Eyes of the Eagle,1,Rings,FALSE,FALSE,243956
+enchant,7967,Eyes of the Eagle,2,Rings,FALSE,FALSE,243957
+enchant,8020,Thalassian Haste,1,Rings,TRUE,FALSE,244010
+enchant,8021,Thalassian Haste,2,Rings,TRUE,FALSE,244011
+enchant,8024,Silvermoon's Alacrity,1,Rings,FALSE,FALSE,244014
+enchant,8025,Silvermoon's Alacrity,2,Rings,FALSE,FALSE,244015
+enchant,7964,Amani Mastery,1,Rings,TRUE,FALSE,243954
+enchant,7965,Amani Mastery,2,Rings,TRUE,FALSE,243955
+enchant,7968,Zul'jin's Mastery,1,Rings,FALSE,FALSE,243958
+enchant,7969,Zul'jin's Mastery,2,Rings,FALSE,FALSE,243959
+enchant,8022,Thalassian Versatility,1,Rings,TRUE,FALSE,244012
+enchant,8023,Thalassian Versatility,2,Rings,TRUE,FALSE,244013
+enchant,8026,Silvermoon's Tenacity,1,Rings,FALSE,FALSE,244016
+enchant,8027,Silvermoon's Tenacity,2,Rings,FALSE,FALSE,244017
+enchant,7938,Bright Linen Spellthread,1,Legs,TRUE,FALSE,240156
+enchant,7939,Bright Linen Spellthread,2,Legs,TRUE,FALSE,240157
+enchant,7936,Arcanoweave Spellthread,1,Legs,FALSE,FALSE,240154
+enchant,7937,Arcanoweave Spellthread,2,Legs,FALSE,FALSE,240155
+enchant,7934,Sunfire Silk Spellthread,1,Legs,FALSE,FALSE,240094
+enchant,7935,Sunfire Silk Spellthread,2,Legs,FALSE,FALSE,240133
+enchant,8162,Blood Knight's Armor Kit,1,Legs,FALSE,FALSE,244642
+enchant,8163,Blood Knight's Armor Kit,2,Legs,FALSE,FALSE,244643
+enchant,8158,Forest Hunter's Armor Kit,1,Legs,FALSE,FALSE,244640
+enchant,8159,Forest Hunter's Armor Kit,2,Legs,FALSE,FALSE,244641
+enchant,8160,Thalassian Scout Armor Kit,1,Legs,TRUE,FALSE,244644
+enchant,8161,Thalassian Scout Armor Kit,2,Legs,TRUE,FALSE,244645
+gem,240982,Indecipherable Eversong Diamond,1,,FALSE,TRUE,240982
+gem,240983,Indecipherable Eversong Diamond,2,,FALSE,TRUE,240983
+gem,240966,Powerful Eversong Diamond,1,,FALSE,TRUE,240966
+gem,240967,Powerful Eversong Diamond,2,,FALSE,TRUE,240967
+gem,240970,Stoic Eversong Diamond,1,,FALSE,TRUE,240970
+gem,240971,Stoic Eversong Diamond,2,,FALSE,TRUE,240971
+gem,240968,Telluric Eversong Diamond,1,,FALSE,TRUE,240968
+gem,240969,Telluric Eversong Diamond,2,,FALSE,TRUE,240969
+gem,240871,Deadly Garnet,1,,TRUE,FALSE,240871
+gem,240872,Deadly Garnet,2,,TRUE,FALSE,240872
+gem,240875,Masterful Garnet,1,,TRUE,FALSE,240875
+gem,240876,Masterful Garnet,2,,TRUE,FALSE,240876
+gem,240873,Quick Garnet,1,,TRUE,FALSE,240873
+gem,240874,Quick Garnet,2,,TRUE,FALSE,240874
+gem,240877,Versatile Garnet,1,,TRUE,FALSE,240877
+gem,240878,Versatile Garnet,2,,TRUE,FALSE,240878
+gem,240903,Flawless Deadly Garnet,1,,FALSE,FALSE,240903
+gem,240904,Flawless Deadly Garnet,2,,FALSE,FALSE,240904
+gem,240907,Flawless Masterful Garnet,1,,FALSE,FALSE,240907
+gem,240908,Flawless Masterful Garnet,2,,FALSE,FALSE,240908
+gem,240905,Flawless Quick Garnet,1,,FALSE,FALSE,240905
+gem,240906,Flawless Quick Garnet,2,,FALSE,FALSE,240906
+gem,240909,Flawless Versatile Garnet,1,,FALSE,FALSE,240909
+gem,240910,Flawless Versatile Garnet,2,,FALSE,FALSE,240910
+gem,240865,Deadly Amethyst,1,,TRUE,FALSE,240865
+gem,240866,Deadly Amethyst,2,,TRUE,FALSE,240866
+gem,240863,Masterful Amethyst,1,,TRUE,FALSE,240863
+gem,240864,Masterful Amethyst,2,,TRUE,FALSE,240864
+gem,240899,Quick Amethyst,1,,TRUE,FALSE,240899
+gem,240900,Quick Amethyst,2,,TRUE,FALSE,240900
+gem,240869,Versatile Amethyst,1,,TRUE,FALSE,240869
+gem,240870,Versatile Amethyst,2,,TRUE,FALSE,240870
+gem,240897,Flawless Deadly Amethyst,1,,FALSE,FALSE,240897
+gem,240898,Flawless Deadly Amethyst,2,,FALSE,FALSE,240898
+gem,240895,Flawless Masterful Amethyst,1,,FALSE,FALSE,240895
+gem,240896,Flawless Masterful Amethyst,2,,FALSE,FALSE,240896
+gem,240867,Flawless Quick Amethyst,1,,FALSE,FALSE,240867
+gem,240868,Flawless Quick Amethyst,2,,FALSE,FALSE,240868
+gem,240901,Flawless Versatile Amethyst,1,,FALSE,FALSE,240901
+gem,240902,Flawless Versatile Amethyst,2,,FALSE,FALSE,240902
+gem,240881,Deadly Lapis,1,,TRUE,FALSE,240881
+gem,240882,Deadly Lapis,2,,TRUE,FALSE,240882
+gem,240885,Masterful Lapis,1,,TRUE,FALSE,240885
+gem,240886,Masterful Lapis,2,,TRUE,FALSE,240886
+gem,240883,Quick Lapis,1,,TRUE,FALSE,240883
+gem,240884,Quick Lapis,2,,TRUE,FALSE,240884
+gem,240879,Versatile Lapis,1,,TRUE,FALSE,240879
+gem,240880,Versatile Lapis,2,,TRUE,FALSE,240880
+gem,240913,Flawless Deadly Lapis,1,,FALSE,FALSE,240913
+gem,240914,Flawless Deadly Lapis,2,,FALSE,FALSE,240914
+gem,240917,Flawless Masterful Lapis,1,,FALSE,FALSE,240917
+gem,240918,Flawless Masterful Lapis,2,,FALSE,FALSE,240918
+gem,240915,Flawless Quick Lapis,1,,FALSE,FALSE,240915
+gem,240916,Flawless Quick Lapis,2,,FALSE,FALSE,240916
+gem,240911,Flawless Versatile Lapis,1,,FALSE,FALSE,240911
+gem,240912,Flawless Versatile Lapis,2,,FALSE,FALSE,240912
+gem,240857,Deadly Peridot,1,,TRUE,FALSE,240857
+gem,240858,Deadly Peridot,2,,TRUE,FALSE,240858
+gem,240859,Masterful Peridot,1,,TRUE,FALSE,240859
+gem,240860,Masterful Peridot,2,,TRUE,FALSE,240860
+gem,240855,Quick Peridot,1,,TRUE,FALSE,240855
+gem,240856,Quick Peridot,2,,TRUE,FALSE,240856
+gem,240861,Versatile Peridot,1,,TRUE,FALSE,240861
+gem,240862,Versatile Peridot,2,,TRUE,FALSE,240862
+gem,240889,Flawless Deadly Peridot,1,,FALSE,FALSE,240889
+gem,240890,Flawless Deadly Peridot,2,,FALSE,FALSE,240890
+gem,240891,Flawless Masterful Peridot,1,,FALSE,FALSE,240891
+gem,240892,Flawless Masterful Peridot,2,,FALSE,FALSE,240892
+gem,240887,Flawless Quick Peridot,1,,FALSE,FALSE,240887
+gem,240888,Flawless Quick Peridot,2,,FALSE,FALSE,240888
+gem,240893,Flawless Versatile Peridot,1,,FALSE,FALSE,240893
+gem,240894,Flawless Versatile Peridot,2,,FALSE,FALSE,240894

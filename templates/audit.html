@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{AUDIT_TITLE}}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/wow_logo.png">
+</head>
+<body data-audit-source="{{AUDIT_SOURCE}}">
+  <div class="bg-base"></div>
+  <div class="bg-noise"></div>
+  <div class="bg-grid"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <div class="container">
+    <header>
+      <div class="header-row">
+        <h1><span class="emoji">⚔️</span> {{AUDIT_HEADING}} <span class="subtitle">Built with zero love and not enough caffeine by Faith.</span></h1>
+        <span class="meta">{{CALENDAR_LINK}}WarcraftLogs Updated: <time id="audit-updated" datetime="{{AUDIT_CREATED}}">{{AUDIT_CREATED}}</time> <span id="audit-tz"></span> · Blizzard/RIO Updated: <time id="players-updated" datetime="{{PLAYERS_CREATED}}">{{PLAYERS_CREATED}}</time> <span id="players-tz"></span></span>
+      </div>
+      <div class="accent-line"></div>
+    </header>
+
+    <div class="table-card">
+      <div class="table-wrapper">
+        <table>
+          <thead>
+            <tr>
+              <th colspan="4" class="group">Character Information</th>
+              <th colspan="9" class="group divider-left">Enchants</th>
+              <th colspan="7" class="group divider-left">Gems</th>
+              <th colspan="3" class="group divider-left">Great Vault (Mythic+)</th>
+            </tr>
+            <tr>
+              <th class="sortable" data-sort="role">Role</th>
+              <th class="sortable" data-sort="string">Name</th>
+              <th class="sortable" data-sort="number">Item Level</th>
+              <th>Tier Set</th>
+              <th class="divider-left">Head</th>
+              <th>Shoulder</th>
+              <th>Chest</th>
+              <th>Legs</th>
+              <th>Feet</th>
+              <th>Finger 1</th>
+              <th>Finger 2</th>
+              <th>Weapon (MH)</th>
+              <th>Weapon (OH)</th>
+              <th class="divider-left">Head</th>
+              <th>Neck</th>
+              <th>Wrist</th>
+              <th>Waist</th>
+              <th>Finger 1</th>
+              <th>Finger 2</th>
+              <th>Diamond</th>
+              <th class="divider-left">Slot 1</th>
+              <th>Slot 2</th>
+              <th>Slot 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ROWS}}
+          </tbody>
+          <tfoot>
+            {{SUMMARY}}
+          </tfoot>
+        </table>
+      </div>
+    </div>
+
+    <div class="audit-footer-nav">{{FOOTER_LINKS}}</div>
+  </div>
+  <script src="/js/sort.js"></script>
+  <script src="/js/timestamp.js"></script>
+  <script src="/js/dashboard-refresh.js"></script>
+</body>
+</html>

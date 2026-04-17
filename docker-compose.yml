@@ -1,0 +1,30 @@
+services:
+  guild-audit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: guild-audit:latest
+    container_name: guild-audit
+    restart: unless-stopped
+    ports:
+      - "${PORT:-3000}:3000"
+    environment:
+      PORT: "${PORT:-3000}"
+      BNET_CLIENT_ID: "${BNET_CLIENT_ID}"
+      BNET_CLIENT_SECRET: "${BNET_CLIENT_SECRET}"
+      WCL_CLIENT_ID: "${WCL_CLIENT_ID}"
+      WCL_CLIENT_SECRET: "${WCL_CLIENT_SECRET}"
+      GUILD_NAME: "${GUILD_NAME}"
+      SERVER_SLUG: "${SERVER_SLUG}"
+      SERVER_REGION: "${SERVER_REGION:-us}"
+      RAIDERIO_SECRET: "${RAIDERIO_SECRET}"
+      CACHE_TTL_MINUTES: "${CACHE_TTL_MINUTES:-15}"
+      AUTH_TOKEN: "${AUTH_TOKEN:-}"
+      ENABLE_INTERNAL_REFRESH_JOBS: "${ENABLE_INTERNAL_REFRESH_JOBS:-true}"
+      REFRESH_AUDIT_INTERVAL_MINUTES: "${REFRESH_AUDIT_INTERVAL_MINUTES:-15}"
+      REFRESH_PLAYERS_INTERVAL_MINUTES: "${REFRESH_PLAYERS_INTERVAL_MINUTES:-5}"
+      REFRESH_JOBS_RUN_ON_START: "${REFRESH_JOBS_RUN_ON_START:-false}"
+      REFRESH_SECRET: "${REFRESH_SECRET:-}"
+    volumes:
+      - ./cache:/app/cache
+      - ./personal_data.json:/app/personal_data.json

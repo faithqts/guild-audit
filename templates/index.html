@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Audit</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/wow_logo.png">
+</head>
+<body class="landing-page">
+  <div class="bg-base"></div>
+  <div class="bg-noise"></div>
+  <div class="bg-grid"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <main class="landing-shell">
+    <div class="landing-grid">
+      <a class="audit-choice-card" href="/guild">
+        <img class="audit-choice-banner" src="/images/guild.jpg" alt="Guild Audit">
+        <div class="audit-choice-body">
+          <h2 class="audit-choice-title">{{GUILD_NAME}}</h2>
+          <p class="audit-choice-description">View the core raid roster sourced from WarcraftLogs with data from Blizzard and RaiderIO.</p>
+        </div>
+      </a>
+
+      <a class="audit-choice-card" href="/personal">
+        <img class="audit-choice-banner" src="/images/personal.jpg" alt="Personal Audit">
+        <div class="audit-choice-body">
+          <h2 class="audit-choice-title">Personal</h2>
+          <p class="audit-choice-description">My personal character audit list using Blizzard profile data and weekly Mythic+ progress.</p>
+        </div>
+      </a>
+
+      {{ADMIN_CARD}}
+    </div>
+  </main>
+</body>
+</html>

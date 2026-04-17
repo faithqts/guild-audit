@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Authentication</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" type="image/x-icon" href="/images/wow_logo.png">
+</head>
+<body class="auth-page">
+  <div class="bg-base"></div>
+  <div class="bg-noise"></div>
+  <div class="bg-grid"></div>
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <main class="auth-shell">
+    <section class="auth-card {{AUTH_STATUS_CLASS}}">
+      <h1 class="auth-title">{{AUTH_TITLE}}</h1>
+      <p class="auth-message">{{AUTH_MESSAGE}}</p>
+      <div class="auth-actions">{{AUTH_ACTIONS}}</div>
+    </section>
+  </main>
+</body>
+</html>
